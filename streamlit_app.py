@@ -9,7 +9,7 @@ import tensorflow as tf
 import subprocess
 
 packages = str(subprocess.run('pip list', capture_output=True))
-st.sidebar.markdown(packages.replace('\\r\\n', '  \\\n'))
+st.markdown(packages.replace('\\r\\n', '  \\\n'))
 
 
 st.title('PLANT DISEASE DETECTION')
