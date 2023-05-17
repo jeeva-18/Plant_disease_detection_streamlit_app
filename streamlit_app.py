@@ -6,6 +6,10 @@ from PIL import Image
 import numpy as np
 import matplotlib.image as mpimg
 import tensorflow as tf
+import subprocess
+
+packages = str(subprocess.run('pip list', capture_output=True))
+st.sidebar.markdown(packages.replace('\\r\\n', '  \\\n'))
 
 
 st.title('PLANT DISEASE DETECTION')
