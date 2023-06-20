@@ -20,7 +20,8 @@ st.title('PLANT DISEASE DETECTION')
 st.sidebar.title("PLANT DISEASE DETECTION")
 st.sidebar.caption("Know about your Planta")
 st.sidebar.markdown("Made by RA students")
-st.sidebar.caption("This model is trained with 87k plant diseased leaves")
+st.sidebar.caption("This model is trained with 87k plant diseased leaves below 
+['Tomato', 'Grape', 'Orange', 'Soybean', 'Squash', 'Potato', 'Corn_(maize)', 'Strawberry', 'Peach', 'Apple', 'Blueberry', 'Cherry_(including_sour)', 'Pepper,_bell', 'Raspberry']")
 st.sidebar.markdown("---")
 
 page_bg_img = '''
