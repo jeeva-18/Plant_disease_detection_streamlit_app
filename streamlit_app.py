@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.image as mpimg
 import tensorflow as tf
 from zipfile import ZipFile
+import tensorflow_hub as hub
   
 # specifying the zip file name
 file_name = "best_plant_model (3).zip"
@@ -35,7 +36,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-model = tf.keras.models.load_model('best_plant_model.h5')
+model = tf.keras.models.load_model('best_plant_model.h5',custom_objects={'KerasLayer':hub.KerasLayer})
 
 class_names = ['Apple___Apple_scab',
  'Apple___Black_rot',
