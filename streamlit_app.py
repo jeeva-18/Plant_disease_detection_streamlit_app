@@ -1,12 +1,12 @@
 #pip install matplotlib
 
-import streamlit as st
-import matplotlib.pyplot as plt
-from PIL import Image
-import numpy as np
-import matplotlib.image as mpimg
-import tensorflow as tf
-from zipfile import ZipFile
+# import streamlit as st
+# import matplotlib.pyplot as plt
+# from PIL import Image
+# import numpy as np
+# import matplotlib.image as mpimg
+# import tensorflow as tf
+# from zipfile import ZipFile
   
 # specifying the zip file name
 file_name = "best_plant_model (3).zip"
