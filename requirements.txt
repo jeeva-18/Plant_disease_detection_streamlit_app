@@ -5,4 +5,4 @@ plotly
 streamlit
 scikit-learn
 tensorflow-cpu
-tensorflow_hub
+tensorflow-hub
